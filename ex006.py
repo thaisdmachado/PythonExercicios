@@ -1,0 +1,7 @@
+numero = int(input('Digite um número: '))
+dobro = int(numero * 2)
+triplo = int(numero * 3)
+raiz = float(numero ** (1/2))
+print('O dobro de {} é igual a {}'.format(numero, dobro))
+print('O triplo de {} é igual a {}'.format(numero, triplo))
+print('A raiz quadrada de {} é igual a {:.2f}'.format(numero, raiz))
